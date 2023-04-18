@@ -1,2 +1,2 @@
 # Portfolio
- Projeto de criação de um site para vendedores de seguros e serviços financeiros.
+ Projeto de criação de site para vendedores e empresas de seguros e serviços financeiros.
