@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box; 
+    background-color: #000000;
+    color: #F6F6F6;   
+}
+
+.cabecalho{
+    padding: 4% 0% 0% 15% ;
+    
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+    text-decoration: none;
+}
+
+.cabecalho__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600px;
+    color: #f6f6f6;
+    
+}
+
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 110px;
+}
+
+.apresentacao__conteudo{
+    width: 1500px; /*Determina a borda do elemento*/
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 30px;
+    font-family:'Krona One', sans-serif;
+}
+
+.titulo-destaque{
+    color: #E84881;
+}
+
+.apresentacao__conteudo__titulo__texto{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex; /* Deixa o elemento fexivel na tela*/
+    flex-direction: column; /*faz com que a direção dos elementos mudo, neste caso coluna.*/
+    align-items: center; /*Alinha os elentos em uma parte da tela, neste caso alinha no centro*/ 
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.apresentacao__sub{
+    font-family: 'krona one' , 'san-sefif' ; /* muda  FONTE*/
+    font-size: 24px; /* modifica o tamanho da fonte*/
+    font-weight: 400; /*muda o peso da fonte(forte ou cor fraca)*/
+
+    
+}
+.botao{
+    /* background-color: #260E69; */ /*Foi retirado, pois queremos o fundo sem cor(ctrl+k+c)*/
+    display: flex; /*comando de alinhamento dos elementos*/
+    justify-content: center; /*alinha os elementos no centro*/
+    gap: 16px; /*determina o espaço entre os elementos*/
+    border: 2px solid #260E69; /*Cria uma borda para o elemento, em seguida o px determina a grossura da borda e o solid o tracejado borda, podendo ser pontilhada e outras formas tbm*/
+    width: 378px; /* determina a larhura do elemento*/
+    text-align: center; 
+    border-radius: 8px; /**/
+    font-size: 27px;
+    font-weight: 500;
+    padding: 21.5px;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.botao:hover{
+    background-color: #272727;
+}
+.rodape{
+    color: #f6f6f6;
+    background-color: #260E69;
+    padding: 24px;
+    text-align: center;
+    font-family: 'montserrat', sans-serif ;
+    font-weight: 400px;
+    font-size: 24px;
+}
